@@ -1,1 +1,2 @@
 component: catalogue
+params: "DOCUMENTDB:prod.catalogue.mongo"
