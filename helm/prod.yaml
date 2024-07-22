@@ -5,3 +5,11 @@ params: "DOCUMENTDB:prod.catalogue.mongo,MONGO_URL:prod.docdb.url.catalogue"
 schemaLoadJob:
   create: true
   type: mongo
+
+resources:
+  limits:
+    cpu: 300m
+    memory: 350Mi
+  requests:
+    cpu: 200m
+    memory: 256Mi
